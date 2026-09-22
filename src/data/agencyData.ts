@@ -1,20 +1,20 @@
 import { ServiceItem, WhyUsItem, ProcessStep, AudienceSegment, ConceptualMetric } from '../types';
 
 export const AGENCY_INFO = {
-  name: 'Scaleup Digital Marketing Agency',
+  name: 'Scaleup Marketing',
   shortName: 'Scaleup',
   tagline: 'Grow Your Brand. Scale Your Business.',
   phone: '+91 99099 92573',
   phoneRaw: '+919909992573',
   email: 'asha.ankoliya02@gmail.com',
-  whatsappMessage: 'Hi Scaleup Digital Marketing Agency, I’d like to discuss digital marketing services for my business.',
-  whatsappUrl: 'https://wa.me/919909992573?text=Hi%20Scaleup%20Digital%20Marketing%20Agency%2C%20I%E2%80%99d%20like%20to%20discuss%20digital%20marketing%20services%20for%20my%20business.',
+  whatsappMessage: 'Hi Scaleup Marketing, I’d like to discuss digital marketing services for my business.',
+  whatsappUrl: 'https://wa.me/919909992573?text=Hi%20Scaleup%20Marketing%2C%20I%E2%80%99d%20like%20to%20discuss%20digital%20marketing%20services%20for%20my%20business.',
   trustLabel: 'DIGITAL MARKETING • BRANDING • GROWTH',
   heroHeadline: 'Turn Your Digital Presence Into Real Growth.',
-  heroSupportingText: 'Scaleup Digital Marketing Agency helps businesses build powerful brands, attract the right audience, generate quality leads, and scale through strategic digital marketing.',
+  heroSupportingText: 'Scaleup Marketing helps businesses build powerful brands, attract the right audience, generate quality leads, and scale through strategic digital marketing.',
   valueStripHeadline: 'We combine strategy, creativity and performance marketing to help brands scale.',
   aboutHeadline: 'Built to Make Brands Grow.',
-  aboutContentParagraph1: 'Scaleup Digital Marketing Agency is a growth-focused digital marketing agency helping businesses strengthen their online presence, connect with their audience, generate leads, and build memorable brands.',
+  aboutContentParagraph1: 'Scaleup Marketing is a growth-focused digital marketing agency helping businesses strengthen their online presence, connect with their audience, generate leads, and build memorable brands.',
   aboutContentParagraph2: 'From social media management and paid advertising to SEO, content creation and branding, we create digital strategies designed around measurable business goals.',
   servicesHeading: 'Everything You Need to Scale Digitally.',
   servicesSubheading: 'From building your brand to generating leads, we provide end-to-end digital marketing solutions.',
@@ -27,7 +27,7 @@ export const AGENCY_INFO = {
   ctaHeading: 'Ready to Scale Your Brand?',
   ctaSubheading: 'Let’s build a digital presence that attracts attention, generates leads and drives growth.',
   contactHeading: 'Let’s Talk About Your Growth.',
-  copyright: '© 2026 Scaleup Digital Marketing Agency. All rights reserved.'
+  copyright: '© 2026 Scaleup Marketing. All rights reserved.'
 };
 
 export const VALUE_STRIP_ITEMS = [
@@ -52,7 +52,7 @@ export const SERVICES: ServiceItem[] = [
       'Monthly content calendars'
     ],
     icon: 'Share2',
-    imageUrl: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=800&q=80',
     fullOverview: 'We take complete ownership of your brand\'s day-to-day social channels. By blending cohesive visual aesthetics with structured posting schedules and authentic audience interactions, we ensure your brand remains top-of-mind every single day.'
   },
   {
@@ -69,7 +69,7 @@ export const SERVICES: ServiceItem[] = [
       'Brand awareness'
     ],
     icon: 'TrendingUp',
-    imageUrl: 'https://images.unsplash.com/photo-1557838923-2985c318be48?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1616469829941-c7200edec809?auto=format&fit=crop&w=800&q=80',
     fullOverview: 'Beyond maintaining a profile, our social media marketing programs actively capture new market share. We tap into algorithm dynamics, high-performing Reels formats, and organic amplification to build an engaged community around your company.'
   },
   {
@@ -86,7 +86,7 @@ export const SERVICES: ServiceItem[] = [
       'Ad optimization'
     ],
     icon: 'Target',
-    imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/images/performance-ads-roi.jpg',
     fullOverview: 'Maximize your advertising budget with precision-targeted PPC and paid social campaigns. We build full-funnel architectures—from high-intent prospecting to multi-touch retargeting—relentlessly testing creative copy, audiences, and bid strategies.'
   },
   {
@@ -103,7 +103,7 @@ export const SERVICES: ServiceItem[] = [
       'Lead nurturing & follow-ups'
     ],
     icon: 'Users',
-    imageUrl: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=800&q=80',
     fullOverview: 'Attracting eyeballs is meaningless without conversions. We engineer streamlined conversion pathways—including high-converting landing pages, instant WhatsApp lead routing, and automated follow-ups—that turn interest into sales conversations.'
   },
   {
@@ -120,7 +120,7 @@ export const SERVICES: ServiceItem[] = [
       'Creative campaigns'
     ],
     icon: 'Video',
-    imageUrl: '/images/creative-studio.jpg',
+    imageUrl: '/images/creative-content-studio.jpg',
     fullOverview: 'We conceptualize and script modern, scroll-stopping creative assets. From fast-paced short-form video and explainer Reels to multi-slide educational carousels, our content tells your brand story with clarity and momentum.'
   },
   {
@@ -137,7 +137,7 @@ export const SERVICES: ServiceItem[] = [
       'Business presentations'
     ],
     icon: 'Palette',
-    imageUrl: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1572044162444-ad60f128bdea?auto=format&fit=crop&w=800&q=80',
     fullOverview: 'First impressions matter online. Our graphic design team crafts pixel-perfect assets customized for modern feeds, ad formats, and pitch decks. Every graphic adheres to clear typography, balanced color harmonies, and brand guidelines.'
   },
   {
@@ -154,7 +154,7 @@ export const SERVICES: ServiceItem[] = [
       'SEO content strategy'
     ],
     icon: 'Search',
-    imageUrl: 'https://images.unsplash.com/photo-1571786256017-aee7a0c009b6?auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/images/seo-search-ranking.jpg',
     fullOverview: 'Ensure high-intent buyers discover your brand when searching for your products or services. We optimize your technical foundation, conduct competitive keyword clustering, enhance your local search profile, and execute authoritative content strategies.'
   },
   {
@@ -171,7 +171,7 @@ export const SERVICES: ServiceItem[] = [
       'Social media identity'
     ],
     icon: 'Sparkles',
-    imageUrl: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=800&q=80',
     fullOverview: 'Great brands are unmistakable. We build cohesive visual and strategic identities from the ground up: memorable logo marks, harmonious color palettes, expressive typography systems, and practical guidelines for consistent brand execution.'
   }
 ];
@@ -287,14 +287,14 @@ export const AUDIENCE_SEGMENTS: AudienceSegment[] = [
     title: 'Startups',
     description: 'Early-stage innovators who need fast market validation, polished digital brand identity, and rapid initial traction.',
     focusAreas: ['Brand Launch', 'Fast Testing', 'Traction Marketing'],
-    imageUrl: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=800&q=80'
+    imageUrl: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 'small-businesses',
     title: 'Small Businesses',
     description: 'Established local and regional businesses looking to build a modern digital pipeline and outpace competitors.',
     focusAreas: ['Local Presence', 'Lead Acquisition', 'Social Consistency'],
-    imageUrl: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=800&q=80'
+    imageUrl: 'https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 'local-businesses',
@@ -308,7 +308,7 @@ export const AUDIENCE_SEGMENTS: AudienceSegment[] = [
     title: 'D2C Brands',
     description: 'Direct-to-consumer product brands requiring high-velocity content, paid social ads, and optimized repeat retention.',
     focusAreas: ['Reels & Video', 'Meta Advertising', 'Conversion Rates'],
-    imageUrl: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80'
+    imageUrl: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 'service-businesses',

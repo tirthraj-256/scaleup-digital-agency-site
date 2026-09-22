@@ -50,8 +50,8 @@ export const FloatingWhatsApp: React.FC = () => {
         rel="noopener noreferrer"
         id="floating-whatsapp-btn"
         className="relative group w-14 h-14 rounded-full bg-[#22C55E] hover:bg-[#84CC16] text-[#0F2D23] flex items-center justify-center shadow-2xl shadow-[#22C55E]/40 hover:shadow-[#84CC16]/50 transition-all duration-300 hover:scale-110 active:scale-95 focus:outline-none"
-        aria-label="Contact Scaleup Digital Marketing Agency on WhatsApp"
-        title="Chat with us on WhatsApp"
+        aria-label="Contact Scaleup Marketing on WhatsApp"
+        title="Chat with Scaleup Marketing on WhatsApp"
       >
         <span className="absolute -inset-1 rounded-full bg-[#22C55E]/30 animate-pulse pointer-events-none" />
         <MessageSquare className="w-7 h-7 fill-current stroke-[1.8]" />

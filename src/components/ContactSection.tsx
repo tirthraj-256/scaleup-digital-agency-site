@@ -111,7 +111,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
 
   // WhatsApp link customized with form data if submitted
   const customWhatsAppUrl = `https://wa.me/919909992573?text=${encodeURIComponent(
-    `Hi Scaleup Digital Marketing Agency, I'd like to discuss ${formData.service} for my business (${formData.businessName || 'Business'}). Name: ${formData.name}.`
+    `Hi Scaleup Marketing, I'd like to discuss ${formData.service} for my business (${formData.businessName || 'Business'}). Name: ${formData.name}.`
   )}`;
 
   return (
@@ -122,8 +122,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
       {/* Subtle background glow and texture */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-20">
         <img
-          src="/images/agency-bg.jpg"
-          alt=""
+          src="/images/hero-marketing-growth.jpg"
+          alt="Scaleup Marketing Digital Atmosphere"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover mix-blend-luminosity"
         />

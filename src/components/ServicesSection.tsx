@@ -84,24 +84,27 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
 
                 {/* Service Card Image Banner */}
                 {service.imageUrl && (
-                  <div className="relative h-40 w-full overflow-hidden bg-black/40">
-                    <img
-                      src={service.imageUrl}
-                      alt={`${service.title} - Scaleup Digital Marketing Agency`}
-                      referrerPolicy="no-referrer"
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80 group-hover:opacity-95"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#0F2D23] via-[#0F2D23]/30 to-transparent" />
+                  <div className="relative w-full">
+                    {/* Inner image container with overflow-hidden for hover zoom */}
+                    <div className="relative h-40 w-full overflow-hidden bg-black/40">
+                      <img
+                        src={service.imageUrl}
+                        alt={`${service.title} - Scaleup Marketing`}
+                        referrerPolicy="no-referrer"
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80 group-hover:opacity-95"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-[#0F2D23] via-[#0F2D23]/30 to-transparent" />
 
-                    {/* Category pill */}
-                    <div className="absolute top-3 right-3 z-10">
-                      <span className="text-[11px] font-semibold text-white px-2.5 py-1 rounded-md bg-black/60 backdrop-blur-md border border-white/20 shadow-sm">
-                        {service.badge}
-                      </span>
+                      {/* Category pill */}
+                      <div className="absolute top-3 right-3 z-10">
+                        <span className="text-[11px] font-semibold text-white px-2.5 py-1 rounded-md bg-black/60 backdrop-blur-md border border-white/20 shadow-sm">
+                          {service.badge}
+                        </span>
+                      </div>
                     </div>
 
-                    {/* Floating Icon */}
-                    <div className="absolute -bottom-4 left-5 z-10 w-11 h-11 rounded-xl bg-[#0F2D23] border border-[#22C55E]/40 p-0.5 shadow-lg shadow-black/50">
+                    {/* Floating Icon - fully visible outside overflow-hidden boundary */}
+                    <div className="absolute -bottom-5 left-5 z-20 w-11 h-11 rounded-xl bg-[#0F2D23] border border-[#22C55E]/40 p-0.5 shadow-lg shadow-black/50">
                       <div className="w-full h-full rounded-[10px] bg-[#22C55E]/20 flex items-center justify-center text-[#22C55E] group-hover:bg-[#22C55E] group-hover:text-[#0F2D23] transition-colors duration-200">
                         <IconComponent className="w-5 h-5 stroke-[2.2]" />
                       </div>
@@ -109,7 +112,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
                   </div>
                 )}
 
-                <div className="p-6 pt-7 flex-1 flex flex-col justify-between">
+                <div className="p-6 pt-8 flex-1 flex flex-col justify-between">
                   <div>
                     {/* Title & Short Description */}
                     <h3 className="text-xl font-bold text-white tracking-tight group-hover:text-[#86EFAC] transition-colors">

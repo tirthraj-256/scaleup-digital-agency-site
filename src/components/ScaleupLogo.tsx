@@ -40,7 +40,7 @@ export const ScaleupLogo: React.FC<ScaleupLogoProps> = ({
       >
         <img
           src={scaleupLogoAsset}
-          alt="Scaleup Digital Marketing Agency Logo"
+          alt="Scaleup Marketing Logo"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover rounded-full bg-[#071912]"
           onError={(e) => {
@@ -66,7 +66,7 @@ export const ScaleupLogo: React.FC<ScaleupLogoProps> = ({
           <span
             className={`text-[10px] tracking-wider uppercase font-semibold text-[#86EFAC]/90 ${subtextClassName}`}
           >
-            Digital Marketing Agency
+            Marketing
           </span>
         </div>
       )}

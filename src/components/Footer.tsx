@@ -39,7 +39,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onSelectServiceForCo
                   {AGENCY_INFO.shortName}
                 </span>
                 <span className="block text-[10px] tracking-wider uppercase font-semibold text-[#86EFAC]">
-                  Digital Marketing Agency
+                  Marketing
                 </span>
               </div>
             </div>
@@ -56,21 +56,21 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onSelectServiceForCo
             <div className="pt-2 flex items-center gap-3">
               <span
                 id="social-instagram"
-                title="Instagram (Scaleup Digital Marketing Agency)"
+                title="Instagram (Scaleup Marketing)"
                 className="w-9 h-9 rounded-lg bg-white/5 hover:bg-[#22C55E]/20 border border-white/10 hover:border-[#22C55E]/40 flex items-center justify-center text-slate-300 hover:text-[#22C55E] transition-colors cursor-pointer"
               >
                 <Instagram className="w-4 h-4" />
               </span>
               <span
                 id="social-facebook"
-                title="Facebook (Scaleup Digital Marketing Agency)"
+                title="Facebook (Scaleup Marketing)"
                 className="w-9 h-9 rounded-lg bg-white/5 hover:bg-[#22C55E]/20 border border-white/10 hover:border-[#22C55E]/40 flex items-center justify-center text-slate-300 hover:text-[#22C55E] transition-colors cursor-pointer"
               >
                 <Facebook className="w-4 h-4" />
               </span>
               <span
                 id="social-linkedin"
-                title="LinkedIn (Scaleup Digital Marketing Agency)"
+                title="LinkedIn (Scaleup Marketing)"
                 className="w-9 h-9 rounded-lg bg-white/5 hover:bg-[#22C55E]/20 border border-white/10 hover:border-[#22C55E]/40 flex items-center justify-center text-slate-300 hover:text-[#22C55E] transition-colors cursor-pointer"
               >
                 <Linkedin className="w-4 h-4" />

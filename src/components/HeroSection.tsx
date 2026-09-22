@@ -16,8 +16,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate }) => {
       {/* Background visual image & atmosphere */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <img
-          src="/images/agency-bg.jpg"
-          alt="Scaleup Digital Agency Background"
+          src="/images/hero-marketing-growth.jpg"
+          alt="Scaleup Marketing Workspace and Growth Analytics"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover opacity-35 mix-blend-luminosity scale-105"
         />

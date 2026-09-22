@@ -29,8 +29,8 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onNavigate }) => {
                 {/* Agency Strategy Photography Header */}
                 <div className="relative h-64 sm:h-72 w-full overflow-hidden">
                   <img
-                    src="/images/agency-team.jpg"
-                    alt="Scaleup Digital Marketing Agency Strategy & Performance Team"
+                    src="/images/agency-strategy-team.jpg"
+                    alt="Scaleup Marketing Strategy & Performance Team Collaborating"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover"
                   />

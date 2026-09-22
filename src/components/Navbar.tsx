@@ -78,7 +78,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
                 {AGENCY_INFO.shortName}
               </span>
               <span className="text-[10px] tracking-wider uppercase font-semibold text-[#86EFAC]/90">
-                Digital Marketing Agency
+                Marketing
               </span>
             </div>
           </a>

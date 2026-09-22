@@ -16,10 +16,10 @@ export const CtaSection: React.FC<CtaSectionProps> = ({ onNavigate }) => {
       <div className="absolute inset-0 bg-gradient-to-r from-[#0F2D23] via-[#144234] to-[#0F2D23]" />
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <img
-          src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1600&q=80"
-          alt="Scaleup Growth Consultation"
+          src="/images/agency-strategy-team.jpg"
+          alt="Scaleup Marketing Growth Consultation"
           referrerPolicy="no-referrer"
-          className="w-full h-full object-cover opacity-10 mix-blend-luminosity"
+          className="w-full h-full object-cover opacity-15 mix-blend-luminosity"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0F2D23] via-transparent to-[#0F2D23]" />
       </div>
