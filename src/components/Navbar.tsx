@@ -21,7 +21,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
       }
 
       // Determine active section
-      const sections = ['home', 'about', 'services', 'why-us', 'process', 'contact'];
+      const sections = ['home', 'about', 'services', 'gallery', 'why-us', 'process', 'contact'];
       for (const section of sections) {
         const el = document.getElementById(section);
         if (el) {
@@ -42,6 +42,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
+    { name: 'Work', href: '#gallery' },
     { name: 'Why Us', href: '#why-us' },
     { name: 'Process', href: '#process' },
     { name: 'Contact', href: '#contact' },

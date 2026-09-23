@@ -1,4 +1,4 @@
-import { ServiceItem, WhyUsItem, ProcessStep, AudienceSegment, ConceptualMetric } from '../types';
+import { ServiceItem, WhyUsItem, ProcessStep, AudienceSegment, ConceptualMetric, GalleryItem, GalleryCategory } from '../types';
 
 export const AGENCY_INFO = {
   name: 'Scaleup Marketing',
@@ -336,4 +336,179 @@ export const SERVICE_OPTIONS = [
   'SEO',
   'Branding',
   'Other'
+];
+
+export const GALLERY_CATEGORIES: GalleryCategory[] = [
+  'All',
+  'Paid Ads',
+  'Social Media',
+  'Content Studio',
+  'Graphic Design',
+  'SEO',
+  'Branding'
+];
+
+export const GALLERY_ITEMS: GalleryItem[] = [
+  {
+    id: 'paid-ads-d2c',
+    title: 'High-ROAS Meta & Google Scaling Funnel',
+    category: 'Paid Ads',
+    serviceId: 'paid-advertising',
+    serviceTitle: 'Paid Advertising',
+    badge: 'Performance Marketing',
+    metric: '4.4x ROAS • $180K+ Revenue',
+    clientIndustry: 'D2C Lifestyle & Apparel',
+    description: 'Multi-tier prospecting and dynamic retargeting campaigns across Meta Ads and Google Shopping with continuous creative A/B testing.',
+    deliverables: [
+      'Meta Advantage+ Shopping Campaigns',
+      'Google Search & Performance Max',
+      'High-Converting Ad Creative Angles',
+      'Full-Funnel Retargeting Architecture'
+    ],
+    imageUrl: '/images/performance-ads-roi.jpg'
+  },
+  {
+    id: 'social-brand-growth',
+    title: 'Organic Instagram & Reels Community Engine',
+    category: 'Social Media',
+    serviceId: 'social-media-management',
+    serviceTitle: 'Social Media Management',
+    badge: 'Viral Reach',
+    metric: '+140K Followers • 3.2M Impressions',
+    clientIndustry: 'Hospitality & Specialty Cafe',
+    description: 'Complete social media management featuring daily viral reels, aesthetic carousel curation, and community interaction workflows.',
+    deliverables: [
+      'Monthly Strategic Content Calendar',
+      'Short-Form Reels Production & Hooks',
+      'Cohesive Grid Aesthetics & Typography',
+      'Active Daily Community Engagement'
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=1000&q=80'
+  },
+  {
+    id: 'content-studio-production',
+    title: 'Commercial Video Production & High-Retention Reels',
+    category: 'Content Studio',
+    serviceId: 'content-creation',
+    serviceTitle: 'Content Creation',
+    badge: 'Studio Production',
+    metric: '82% Avg Watch Time • 1.8M Organic Views',
+    clientIndustry: 'Fitness & Wellness Brand',
+    description: 'On-location 4K cinematography, storyboard scripting, kinetic motion typography, and sound design tailored for high audience retention.',
+    deliverables: [
+      'Hook-Driven Scripting & Storyboards',
+      '4K Commercial Location Shooting',
+      'Kinetic Subtitles & Micro-Animations',
+      'Sound Design & Master Color Grade'
+    ],
+    imageUrl: '/images/creative-content-studio.jpg'
+  },
+  {
+    id: 'graphic-design-creatives',
+    title: 'High-Converting Social Creatives & Brand Banners',
+    category: 'Graphic Design',
+    serviceId: 'graphic-design',
+    serviceTitle: 'Graphic Design',
+    badge: 'Visual Craft',
+    metric: '+68% Click-Through Rate',
+    clientIndustry: 'SaaS & Digital Services',
+    description: 'Eye-catching promotional banners, multi-slide educational carousels, and digital ad graphics designed with strategic visual hierarchy.',
+    deliverables: [
+      'Social Media Feed & Story Packs',
+      'Promotional Event & Launch Banners',
+      'Iterative Ad Creative Variations',
+      'Brand Presentation Decks'
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1572044162444-ad60f128bdea?auto=format&fit=crop&w=1000&q=80'
+  },
+  {
+    id: 'seo-search-dominance',
+    title: 'National Search Ranking & Traffic Acceleration',
+    category: 'SEO',
+    serviceId: 'seo',
+    serviceTitle: 'SEO',
+    badge: 'Search Engine Optimization',
+    metric: '#1 Rankings • +310% Organic Inflow',
+    clientIndustry: 'Healthcare & Professional Services',
+    description: 'Technical SEO cleanup, comprehensive keyword cluster architecture, Google Business Profile dominance, and authoritative content creation.',
+    deliverables: [
+      'High-Intent Keyword Clustering',
+      'Core Web Vitals & Technical Optimization',
+      'Google Business Profile Domination',
+      'Authoritative SEO Content Strategy'
+    ],
+    imageUrl: '/images/seo-search-ranking.jpg'
+  },
+  {
+    id: 'branding-visual-identity',
+    title: 'Complete Brand Identity & Modern Design System',
+    category: 'Branding',
+    serviceId: 'branding',
+    serviceTitle: 'Branding',
+    badge: 'Brand Identity',
+    metric: 'Full Identity Suite & Guidelines',
+    clientIndustry: 'Modern Architectural Studio',
+    description: 'Comprehensive brand identity development: distinctive logo mark, bespoke color harmonies, typographic guidelines, and collateral execution.',
+    deliverables: [
+      'Primary & Responsive Logo Marks',
+      'Bespoke Color Palette & Typography System',
+      'Comprehensive Brand Guidelines Book',
+      'Stationery & Digital Collateral Suite'
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=1000&q=80'
+  },
+  {
+    id: 'lead-gen-funnel',
+    title: 'High-Intent WhatsApp & Lead Capture Funnel',
+    category: 'Paid Ads',
+    serviceId: 'lead-generation',
+    serviceTitle: 'Lead Generation',
+    badge: 'Conversion Pipeline',
+    metric: '520+ Qualified Leads • $3.20 CPL',
+    clientIndustry: 'Real Estate & Luxury Properties',
+    description: 'Instant lead capture landing page, click-to-WhatsApp targeted campaigns, and automated routing sequence for rapid sales conversations.',
+    deliverables: [
+      'High-Converting Mobile Landing Experience',
+      'Meta Click-to-WhatsApp Direct Ads',
+      'Instant Lead Notification Pipeline',
+      'Qualification Quiz & Form Optimization'
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80'
+  },
+  {
+    id: 'creator-campaign-reels',
+    title: 'Viral Product Showcase & Influencer Campaign',
+    category: 'Content Studio',
+    serviceId: 'social-media-marketing',
+    serviceTitle: 'Social Media Marketing',
+    badge: 'Content Strategy',
+    metric: '4.1M Views • 65K Saves',
+    clientIndustry: 'Consumer Tech & Smart Living',
+    description: 'Dynamic product unboxing, user problem-solving hooks, and trending audio synchronization engineered for maximum algorithmic distribution.',
+    deliverables: [
+      'Attention-Grabbing Hook Frameworks',
+      'Studio Macro Product Videography',
+      'Trending Audio & Pacing Synchronization',
+      'Cross-Platform Adaptation (IG & TikTok)'
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=1000&q=80'
+  },
+  {
+    id: 'luxury-product-branding',
+    title: 'Boutique Packaging & Digital Brand Experience',
+    category: 'Branding',
+    serviceId: 'branding',
+    serviceTitle: 'Branding',
+    badge: 'Packaging & Identity',
+    metric: 'Unmistakable Brand Presence',
+    clientIndustry: 'Artisanal Skincare & Wellness',
+    description: 'Minimalist, luxurious packaging design, physical container typography, social media layout templates, and digital storefront styling.',
+    deliverables: [
+      'Physical Packaging & Label Die-lines',
+      '3D Realistic Product Mockup Suite',
+      'Social Media Launch Grid Guidelines',
+      'Digital Storefront Aesthetic Guidance'
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1634942537034-2531766767d1?auto=format&fit=crop&w=1000&q=80'
+  }
 ];

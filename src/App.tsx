@@ -4,6 +4,7 @@ import { HeroSection } from './components/HeroSection';
 import { TrustValueStrip } from './components/TrustValueStrip';
 import { AboutSection } from './components/AboutSection';
 import { ServicesSection } from './components/ServicesSection';
+import { GallerySection } from './components/GallerySection';
 import { WhyChooseUsSection } from './components/WhyChooseUsSection';
 import { ProcessSection } from './components/ProcessSection';
 import { MetricsSection } from './components/MetricsSection';
@@ -66,7 +67,10 @@ export default function App() {
         {/* 5. Services Section */}
         <ServicesSection onSelectServiceForContact={handleSelectServiceForContact} />
 
-        {/* 6. Why Choose Us */}
+        {/* 6. Work & Deliverables Gallery Section */}
+        <GallerySection onSelectServiceForContact={handleSelectServiceForContact} />
+
+        {/* 7. Why Choose Us */}
         <WhyChooseUsSection />
 
         {/* 7. Our Process */}

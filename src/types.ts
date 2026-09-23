@@ -47,3 +47,26 @@ export interface ContactFormData {
   service: string;
   message: string;
 }
+
+export type GalleryCategory =
+  | 'All'
+  | 'Paid Ads'
+  | 'Social Media'
+  | 'Content Studio'
+  | 'Graphic Design'
+  | 'SEO'
+  | 'Branding';
+
+export interface GalleryItem {
+  id: string;
+  title: string;
+  category: 'Paid Ads' | 'Social Media' | 'Content Studio' | 'Graphic Design' | 'SEO' | 'Branding';
+  serviceId: string;
+  serviceTitle: string;
+  badge: string;
+  metric: string;
+  clientIndustry: string;
+  description: string;
+  deliverables: string[];
+  imageUrl: string;
+}

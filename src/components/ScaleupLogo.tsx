@@ -1,5 +1,5 @@
 import React from 'react';
-import scaleupLogoAsset from '../assets/images/scaleup_logo_dark_1789982280052.jpg';
+import scaleupLogoAsset from '../assets/images/scaleup_logo.png';
 import { AGENCY_INFO } from '../data/agencyData';
 
 export interface ScaleupLogoProps {
@@ -34,7 +34,7 @@ export const ScaleupLogo: React.FC<ScaleupLogoProps> = ({
     <div className={`inline-flex items-center gap-3 select-none ${className}`}>
       {/* Emblem Badge */}
       <div
-        className={`relative shrink-0 rounded-full overflow-hidden p-0.5 bg-gradient-to-br from-[#84CC16] via-[#22C55E] to-[#15803D] shadow-lg shadow-[#22C55E]/25 ring-1 ring-[#86EFAC]/30 ${dimensionClass} ${
+        className={`relative shrink-0 rounded-full overflow-hidden shadow-lg shadow-[#22C55E]/20 ring-1 ring-[#86EFAC]/25 ${dimensionClass} ${
           interactive ? 'group-hover:scale-105 group-hover:shadow-[#84CC16]/40 group-hover:ring-[#84CC16]/60 transition-all duration-300' : ''
         }`}
       >
@@ -46,8 +46,8 @@ export const ScaleupLogo: React.FC<ScaleupLogoProps> = ({
           onError={(e) => {
             // Fallback to static public path if asset bundle loader fails
             const target = e.currentTarget;
-            if (target.src !== window.location.origin + '/scaleup-logo.jpg') {
-              target.src = '/scaleup-logo.jpg';
+            if (target.src !== window.location.origin + '/scaleup-logo.png') {
+              target.src = '/scaleup-logo.png';
             }
           }}
         />

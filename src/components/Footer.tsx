@@ -21,6 +21,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onSelectServiceForCo
     { name: 'Home', id: 'home' },
     { name: 'About', id: 'about' },
     { name: 'Services', id: 'services' },
+    { name: 'Work', id: 'gallery' },
     { name: 'Why Us', id: 'why-us' },
     { name: 'Process', id: 'process' },
     { name: 'Contact', id: 'contact' },
